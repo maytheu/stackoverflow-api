@@ -1,0 +1,33 @@
+{
+  "name": "stackoverflow-api",
+  "version": "0.1.0",
+  "description": "This is rest api to access stackoverflow.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maytheu/stackoverflow-api.git"
+  },
+  "keywords": [
+    "stackoverflow",
+    "rest api"
+  ],
+  "author": "mathew adetunji",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maytheu/stackoverflow-api/issues"
+  },
+  "homepage": "https://github.com/maytheu/stackoverflow-api#readme",
+  "dependencies": {
+    "express": "4.17.1",
+    "got": "11.8.2",
+    "jsdom": "16.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.12"
+  }
+}
